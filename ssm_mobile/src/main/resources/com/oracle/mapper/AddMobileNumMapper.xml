@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.oracle.dao.AddMobileNumDao">
+
+	<insert id="addNum" parameterType="map">
+		insert into Tmobile values(#{mobile_Number},#{mobile_Type},#{card_Number},'Y')
+	</insert>
+	
+</mapper>

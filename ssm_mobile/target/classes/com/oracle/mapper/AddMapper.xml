@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.oracle.dao.AddCustomerDao">
+
+	<insert id="add1" parameterType="string">
+		insert into Tcustomer(customer_Id,id_Type,id_number) values(null,#{id_Type},#{id_Number})
+	</insert>
+
+	<update id="add2" parameterType="string">
+		update Tcustomer set customer_Name=#{customer_Name},customer_Birth=#{customer_Birth},
+		customer_Sex=#{customer_Sex},customer_Addre=#{customer_Addre} where id_Number=#{id_Number}
+	</update>
+
+	<insert id="add3" parameterType="map">
+		insert into Tuser(mobile_Number,roaming_Status,com_Lelel,user_Id) values(#{mobile_Number},#{roaming_Status},#{com_Lelel},#{user_Id})
+	</insert>
+	
+	<update id="add4" parameterType="map">
+		update Tuser set customer_Id=(select customer_Id from tcustomer where id_Number=#{id_Number}) where user_Id=#{user_Id}
+	</update>
+	
+</mapper>

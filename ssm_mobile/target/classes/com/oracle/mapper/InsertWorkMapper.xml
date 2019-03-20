@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.oracle.dao.InsertWorkDao">
+
+	<insert id="insert2" parameterType="string">
+		insert into Tcharge_Rule values('O',#{func_Name},#{charge_Code})
+	</insert>
+
+	
+	
+</mapper>
