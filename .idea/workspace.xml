@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="467f9cac-97a0-456d-b7e8-daba587e0623" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ssm_mobile/src/main/java/com/oracle/action/AddCustomerAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_mobile/src/main/java/com/oracle/action/AddCustomerAction.java" afterDir="false" />
-    </list>
+    <list default="true" id="467f9cac-97a0-456d-b7e8-daba587e0623" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/ssm_mobile/src/main/java/com/oracle/action/AddCustomerAction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -159,16 +157,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559436985027</updated>
-      <workItem from="1559436986325" duration="191000" />
+      <workItem from="1559436986325" duration="1055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191000" />
+    <option name="totallyTimeSpent" value="1055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="23" width="1400" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -210,7 +207,7 @@
     <entry file="file://$PROJECT_DIR$/ssm_mobile/src/main/java/com/oracle/action/AddCustomerAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
