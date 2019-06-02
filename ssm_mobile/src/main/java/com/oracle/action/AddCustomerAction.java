@@ -28,6 +28,10 @@ public class AddCustomerAction {
 		
 		return "newCustomer1";
 	}
+
+
+
+
 	
 	@RequestMapping(value="/add")
 	public String add1() {
